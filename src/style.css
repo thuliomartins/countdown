@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #F9FBFC;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+}
+
+main div h1 {
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: #6C63FF;
+    margin-bottom: 15px;
+}
+
+.container-info {
+    position: relative;
+    margin-top: -50px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+    width: 527px;
+}
+
+.wrapper .count-wrapper p {
+    font-family: Poppins;
+    font-size: 7.2rem;
+    font-weight: bold;
+    color: #4D4C59;
+    margin-top: 10px;
+}
+
+.count-wrapper span {
+    width: 125px;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: Poppins;
+    color: #C8C8C8;
+}
+
+.count-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-image img {
+    height: 349px;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+.sign-up p {
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #9C9AB6;
+    margin-bottom: 22px;
+}
+
+.sign-up button {
+    background-color: #6C63FF;
+    border-radius: 10px;
+    border: none;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px;
+}
+
+footer img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
