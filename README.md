@@ -4,7 +4,7 @@
 
 * HTML
 * CSS
-* Javacript
+* Javascript
 
 <p align="left">
     <img src="/src/images/to-readme/result.gif">
